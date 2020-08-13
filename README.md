@@ -10,18 +10,25 @@ Goldenpass Platform은 유소년 축구선수를 대상으로 선수 개개인�
 
 한명의 선수에 대해 6개 영역, 19개 지표를 측정하여 측정값을 입력한 데이터를 해당 플랫폼에서 업로드하면, 개별 데이터를 조회할 수 있는 것은 물론, 선수간 데이터를 비교할 수 있는 등 유동적인 데이터 파악이 가능합니다.
 
-## 2. 전체 사용 스택 및 스택 아키텍쳐
+## 2. 사용 스택 
 ![clientstack](https://user-images.githubusercontent.com/59456824/90146558-23a7a180-ddbc-11ea-8f1e-c6e560a2717e.png)
-![backstack](https://user-images.githubusercontent.com/59456824/90146568-273b2880-ddbc-11ea-936d-765b828e41e2.png)
 ![otehrstack](https://user-images.githubusercontent.com/59456824/90146561-25716500-ddbc-11ea-9f8d-e32ad1f8485b.png)
 
 
 ## 3. 기능 Flow 
 <img width="1000" alt="_2020-08-10__10 31 53 (1)" src="https://user-images.githubusercontent.com/59456824/90146986-aaf51500-ddbc-11ea-9126-2629998a0811.png">
 
+## 4. 기여 작업 세부사항
+1. **[로그인]** 로그인, 로그아웃기능 구현 
+2. **[선수 검색창]** 검색 창 클릭 시 선수 검색 모달창 생성, 필터링 적용해 검색한 선수 출력, 검색 결과로 나온 선수 클릭 시 해당 선수의 개인 페이지로 이동하는 기능 구현 
+3. **[선수리스트 페이지]** 필터링(성별,연령그룹,차시,카테고리)에 따른 선수 리스트 출력기능, 출력된 선수 리스트 CSV 포맷으로 다운로드 기능
+4. **[선수비교 페이지]** 비교할 선수 선정 모달창, 2-5명의 선수 클릭 시 유저가 필터링한 대로 선수들의 측정 데이터를 비교하는 라인 그래프 출력
+5. **[데이터 등록 페이지]** CSV파일 등록 시 DB에 저장 및 선수 데이터 페이지에 출력
 
-## 4. 주요 기능별 시연 GIF
+
+## 5. 주요 기능별 시연 GIF
 **1. 로그인, 로그아웃**
+
 ![login](https://user-images.githubusercontent.com/59456824/90150068-345a1680-ddc0-11ea-9297-9843d535c51a.gif)
 
 **2. 선수 데이터 업로드 (2020_3차시 선수들의 파일을 업로드 한 예시입니다)**
@@ -35,3 +42,5 @@ Goldenpass Platform은 유소년 축구선수를 대상으로 선수 개개인�
 
 **5.선수 비교(최대 5명의 선수 비교)**
 ![compareplayers gif](https://user-images.githubusercontent.com/59456824/90148099-ed6b2180-ddbd-11ea-86ba-a2841fa27ab3.gif)
+
+
