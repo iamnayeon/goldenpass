@@ -12,24 +12,26 @@ Goldenpass Platform은 유소년 축구선수를 대상으로 선수 개개인�
 
 ## 2. 전체 사용 스택 및 스택 아키텍쳐
 ![clientstack](https://user-images.githubusercontent.com/59456824/90146558-23a7a180-ddbc-11ea-8f1e-c6e560a2717e.png)
-![otehrstack](https://user-images.githubusercontent.com/59456824/90146561-25716500-ddbc-11ea-9f8d-e32ad1f8485b.png)
 ![backstack](https://user-images.githubusercontent.com/59456824/90146568-273b2880-ddbc-11ea-936d-765b828e41e2.png)
+![otehrstack](https://user-images.githubusercontent.com/59456824/90146561-25716500-ddbc-11ea-9f8d-e32ad1f8485b.png)
+
 
 ## 3. 기능 Flow 
-<img width="1264" alt="_2020-08-10__10 31 53 (1)" src="https://user-images.githubusercontent.com/59456824/90146986-aaf51500-ddbc-11ea-9126-2629998a0811.png">
+<img width="1000" alt="_2020-08-10__10 31 53 (1)" src="https://user-images.githubusercontent.com/59456824/90146986-aaf51500-ddbc-11ea-9126-2629998a0811.png">
 
 
 ## 4. 주요 기능별 시연 GIF
-로그인,로그아웃
+**1. 로그인, 로그아웃**
 ![login](https://user-images.githubusercontent.com/59456824/90150068-345a1680-ddc0-11ea-9297-9843d535c51a.gif)
 
-선수 데이터 업로드 (2020_3차시 선수들의 파일을 업로드 한 예시입니다.)
+**2. 선수 데이터 업로드 (2020_3차시 선수들의 파일을 업로드 한 예시입니다)**
 ![uploadData](https://user-images.githubusercontent.com/59456824/90150091-3c19bb00-ddc0-11ea-8f11-90f2890f2bad.gif)
 
-선수 데이터 필터링(차시,성별,카테고리), CSV다운로드 
+**3. 선수 데이터 필터링(연령그룹,차시,성별,카테고리), CSV 다운로드 기능** 
+![playerslist](https://user-images.githubusercontent.com/59456824/90151084-51431980-ddc1-11ea-8272-3edb84f04a06.gif)
 
-선수 검색
+**4. 선수 검색**
 ![searchData](https://user-images.githubusercontent.com/59456824/90150123-476ce680-ddc0-11ea-8eb3-bd0034664603.gif)
 
-선수 비교(최대 5명의 선수 비교)
+**5.선수 비교(최대 5명의 선수 비교)**
 ![compareplayers gif](https://user-images.githubusercontent.com/59456824/90148099-ed6b2180-ddbd-11ea-86ba-a2841fa27ab3.gif)
